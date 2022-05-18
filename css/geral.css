@@ -30,7 +30,7 @@
 
 body {
   background-color: #151515;
-  background-image:url("/img/justo.gif");
+  background-image:url("../img/justo.gif");
   font-family: 'Roboto', sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
