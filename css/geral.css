@@ -12,11 +12,11 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 15px;
-  text-align: center;
+
 }
 
 .titulo {
-  font-size: 2.3em;
+  font-size: 3em;
   text-shadow:
   0 0 4px #fff,
   0 0 11px #fff,
@@ -24,18 +24,30 @@
   text-align: center;
   font-family: 'Goldman', cursive;
   margin: 5px;
-  color: white;
+  color: var(--branco);
   text-transform: uppercase;
 }
 
-body {
+
+.conteudo {
   background-color: #151515;
-  background-image:url("../img/justo.gif");
+  background-image:url(../img/fundo.jpg);
   font-family: 'Roboto', sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
   width: auto;
-  height: 100vh;
-  width: 100vw;
+  background-attachment:fixed;
 }
+
+.titulo-imagem {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1.5em;
+}
+
+main {
+  padding: 1.5em;
+}
+
