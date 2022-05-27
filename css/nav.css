@@ -46,3 +46,7 @@
   color:  var(--rosa);
   transition: 0.3s;
 }
+
+.ideia {
+  cursor: not-allowed;
+}
