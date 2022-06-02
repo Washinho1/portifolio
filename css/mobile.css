@@ -1,0 +1,51 @@
+@media screen and (max-width:600px)  {
+  
+  h1 {
+    display: inline-block;
+    width: 30px;
+  }
+
+  .titulo-imagem img {
+    display: none;
+  }
+
+  .titulo {
+    font-size: 2em;
+  }
+
+  .container{
+      width: auto;
+    }
+
+
+   .listadonav {
+     display: none;
+   } 
+
+   .estilos {
+     margin: 5px;
+     text-align: center;
+   }
+
+  .estilo-div{
+      flex-direction: column;
+    }
+
+  .frase {
+    font-size: 1.3em;
+  }
+
+  #mensagemForm {
+    height: 5em;
+  }
+
+  .formulario {
+    margin: 20px;
+  }
+
+  .redes-sociais {
+    width:3em;
+    height:3em;
+    color: white;
+    }
+ };
