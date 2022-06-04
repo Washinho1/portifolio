@@ -70,13 +70,34 @@
           <h2 class="titulo">contato</h2>
           <img src="img/coqueiro.png" alt="coqueiro estilo neon" />
         </div>
-        <form class="formulario" method="POST">
+        <form
+          action="https://formsubmit.co/washjr98@gmail.com"
+          class="formulario"
+          method="POST"
+        >
           <label for="nomeForm">Seu nome</label>
-          <input type="nomeForm" placeholder="insira seu nome" id="nomeForm" />
+          <input
+            type="text"
+            name="name"
+            placeholder="insira seu nome"
+            id="nomeForm"
+            required
+          />
           <label for="email">Email</label>
-          <input type="email" placeholder="insira seu email" id="emailForm" />
+          <input
+            type="email"
+            name="email"
+            placeholder="insira seu email"
+            id="emailForm"
+            required
+          />
           <label for="mensagemForm">Sua mensagem aqui</label>
-          <textarea id="mensagemForm"></textarea>
+          <textarea
+            name="message"
+            type="text"
+            id="mensagemForm"
+            required
+          ></textarea>
           <button type="submit" value="enviar" id="otaoForm">enviar</button>
         </form>
       </div>
