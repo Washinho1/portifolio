@@ -1,16 +1,15 @@
+header{
+  margin-bottom: 1.5rem;
+}
+
 .nav-div{
   display: flex;
   justify-content: space-between;
-  height: 10vh;
 }
 
 .logo {
   margin: 10px;
   height: 2.5em;
-}
-
-.listadonav{
-  display: flex;
 }
 
 .listadonav li{

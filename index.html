@@ -1,131 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/geral.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/contato.css" />
-    <link rel="stylesheet" href="css/foot.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <title>Wash | portifolio</title>
-  </head>
-  <body>
-    <div class="conteudo">
-      <nav>
-        <div class="nav-div container">
-          <h1>
-            <img src="img/Wash-17-05-2022.png" alt="logo-Wash" class="logo" />
-          </h1>
-          <ul class="listadonav">
-            <li>
-              <a href="https://washinho1.github.io/portifolio/" class="link-nav"
-                >home</a
-              >
-            </li>
-            <li>
-              <a href="#contato" class="link-nav">contato</a>
-            </li>
-            <li>
-              <a href="#" class="link-nav ideia">ideia</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <main>
-        <div class="main-div container">
-          <h2 class="Stitulo titulo">Sobre</h2>
-          <p class="frase">
-            Bem vindo ao meu site, meu nome é Washington tenho 23 anos, sempre
-            fui apaixonado por tecnologia e acredito que um jeito de me
-            aproximar dela é sendo um desenvolvedor, atualmente estou estudando
-            front-end mas pretendo expandir para fullstack.
-          </p>
-        </div>
-        <div class="container">
-          <div class="titulo-imagem">
-            <img src="img/sol.png" alt="" />
-            <h2 class="devC titulo">meus conhecimentos</h2>
-          </div>
-          <div class="estilo-div">
-            <p class="estilos">html</p>
-            <p class="estilos">css</p>
-            <p class="estilos">JavaScript</p>
-          </div>
-        </div>
-      </main>
-    </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/geral.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/contato.css" />
+  <link rel="stylesheet" href="css/foot.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Roboto:wght@100&display=swap"
+    rel="stylesheet" />
+  <title>Wash | portifolio</title>
+</head>
+
+<body class="conteudo">
+  <header>
+    <nav>
+      <div class="nav-div container">
+        <h1>
+          <img src="img/Wash-17-05-2022.png" alt="logo-Wash" class="logo" />
+        </h1>
+        <ul class="listadonav">
+          <li>
+            <a href="https://washinho1.github.io/portifolio/" class="link-nav">home</a>
+          </li>
+          <li>
+            <a href="#contato" class="link-nav">contato</a>
+          </li>
+          <li>
+            <a href="#" class="link-nav ideia">ideia</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article class="main-div container">
+      <h2 class="Stitulo titulo">Sobre</h2>
+      <p class="frase">
+        Bem vindo ao meu site, meu nome é Washington tenho 23 anos, sempre
+        fui apaixonado por tecnologia e acredito que um jeito de me
+        aproximar dela é sendo um desenvolvedor, atualmente estou estudando
+        front-end mas pretendo expandir para fullstack.
+      </p>
+    </article>
+    <article class="container">
+      <figure class="titulo-imagem">
+        <img src="img/sol.png" alt="" />
+        <figcaption class="devC titulo">meus conhecimentos</figcaption>
+      </figure>
+      <ul class="estilo-div">
+        <li class="estilos">html</li>
+        <li class="estilos">css</li>
+        <li class="estilos">JavaScript</li>
+      </ul>
+    </article>
     <section class="fundo-form" id="contato">
       <div class="div-form container">
-        <div class="titulo-imagem">
-          <h2 class="titulo">contato</h2>
+        <figure class="titulo-imagem">
+          <figcaption class="titulo">contato</figcaption>
           <img src="img/coqueiro.png" alt="coqueiro estilo neon" />
-        </div>
-        <form
-          action="https://formsubmit.co/washjr98@gmail.com"
-          class="formulario"
-          method="POST"
-        >
+        </figure>
+        <form action="https://formsubmit.co/washjr98@gmail.com" class="formulario" method="POST">
           <label for="nomeForm">Seu nome</label>
-          <input
-            type="text"
-            name="name"
-            placeholder="insira seu nome"
-            id="nomeForm"
-            required
-          />
+          <input type="text" name="name" placeholder="insira seu nome" id="nomeForm" required />
           <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="insira seu email"
-            id="emailForm"
-            required
-          />
+          <input type="email" name="email" placeholder="insira seu email" id="emailForm" required />
           <label for="mensagemForm">Sua mensagem aqui</label>
-          <textarea
-            name="message"
-            type="text"
-            id="mensagemForm"
-            required
-          ></textarea>
+          <textarea name="message" type="text" id="mensagemForm" required></textarea>
           <button type="submit" value="enviar" id="otaoForm">enviar</button>
         </form>
       </div>
     </section>
-  </body>
+  </main>
   <footer>
-    <div class="foot-div container">
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/washington-william-50bb62183/"
-      >
-        <img
-          src="img/linkedin.png"
-          alt="icone linkedin"
-          class="redes-sociais"
-        />
+    <nav class="foot-div container">
+      <a target="_blank" href="https://www.linkedin.com/in/washington-william-50bb62183/">
+        <img src="img/linkedin.png" alt="icone linkedin" class="redes-sociais" />
       </a>
       <a target="_blank" href="https://github.com/washinho1">
         <img src="img/github.png" alt="icone github" class="redes-sociais" />
       </a>
       <a target="_blank" href="https://www.instagram.com/wash.png/">
-        <img
-          src="img/instagram.png"
-          alt="icone instagram"
-          class="redes-sociais"
-        />
+        <img src="img/instagram.png" alt="icone instagram" class="redes-sociais" />
       </a>
-    </div>
+    </nav>
     <p>site original criado por Washington &#9807;</p>
   </footer>
+</body>
 </html>
