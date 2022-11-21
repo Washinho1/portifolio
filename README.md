@@ -1,6 +1,6 @@
-# Meu portifólio link
+# Meu portifólio 
 
-[URL](https://washinho1.github.io/portifolio/)
+[link](https://washinho1.github.io/portifolio/)
 
 ### Screenshot
 
